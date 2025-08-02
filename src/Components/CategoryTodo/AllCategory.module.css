@@ -1,0 +1,15 @@
+.Category {
+    width: 70%;
+    margin: 15px auto;
+    padding: 10px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.cat_text {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}

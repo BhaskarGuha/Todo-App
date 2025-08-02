@@ -1,0 +1,92 @@
+.CategoryContainer {
+    background-color: rgb(56, 170, 235);
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    padding: 5px 2rem;
+    border-radius: 7px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.header h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0px;
+    color: white;
+    font-style: italic;
+    width: 60%;
+}
+
+.todoContainer {
+    width: 90%;
+}
+
+.btn {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.btn2 {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(147, 27, 184);
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.delete_btn_container {
+    width: 7%;
+    text-align: right;
+}
+
+.delete_btn {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 66, 66);
+    border: none;
+    cursor: pointer;
+}
+
+.body {
+    display: flex;
+}
+
+.todo {
+    display: flex;
+    margin: 5px 0px;
+    background-color: rgb(101, 188, 84);
+    border-radius: 7px;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.todo h1 {
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.todo p {
+    margin: 5px 0px;
+    margin-bottom: 10px;
+}
+
+

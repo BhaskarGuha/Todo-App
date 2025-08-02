@@ -1,0 +1,19 @@
+.btn {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.container {
+    display: flex;
+    margin: 0px auto;
+    margin-top: 5rem;
+    width: 80%;
+}
+/* .signinContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 20px;
+    border-radius: 20px;
+  } */
+  
