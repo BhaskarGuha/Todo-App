@@ -3,7 +3,6 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 from flask_mail import Mail
 from flask_jwt_extended import JWTManager
-
 from dotenv import load_dotenv
 import os
 
@@ -21,11 +20,11 @@ def create_app():
     mail.init_app(app)
     jwt.init_app(app)
 
-    # ✅ CORS configuration with specific allowed origins
-    CORS(app, origins=[
+    # ✅ Proper CORS configuration for local + Render frontend
+    CORS(app, resources={r"/*": {"origins": [
         "http://localhost:3000",
         "https://todo-app-xzi6.onrender.com"
-    ])
+    ]}}, supports_credentials=True)
 
     from .routes import todo_bp
     from .auth import auth_bp
