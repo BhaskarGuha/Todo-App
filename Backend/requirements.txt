@@ -7,3 +7,4 @@ flask-jwt-extended
 requests
 gunicorn
 psycopg2-binary
+python-dotenv
